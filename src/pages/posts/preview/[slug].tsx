@@ -58,11 +58,7 @@ export default function PostPreview({ post }: PostPreviewProps) {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [
-      {
-        params: { slug: 'serverless-quando-utilizar-e-aplicacoes-com-nodejs' },
-      },
-    ],
+    paths: [],
     fallback: 'blocking',
   };
 };
