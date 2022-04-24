@@ -36,10 +36,10 @@ export default function Home({ product }: HomeProps) {
             <span>for {product.amount} month</span>
           </p>
 
-          <SubscribeButton priceId={product.priceId} />
+          <SubscribeButton />
         </section>
 
-        <Image src="/images/avatar.svg" alt="Girl coding" />
+        <Image src="/images/avatar.svg" width={336} height={521} alt="Girl coding" />
       </main>
     </>
   );
